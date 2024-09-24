@@ -1,0 +1,62 @@
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure the header stays above other elements */
+  background-color: black; /* Or any color that suits your design */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Optional: Adds a subtle shadow */
+}
+
+body {
+  padding-top: 60px; /* Adjust based on the height of your header */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px; /* Add some padding to the sides */
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  font-size: 1.8rem;
+  /* font-weight: bold; */
+  font-family:fantasy;
+  color: #c0a060; /* Gold color */
+}
+
+.logo {
+  max-height: 60px; /* Ensure the logo doesn't exceed a certain height */
+  max-width: 100%; /* Ensure the logo scales down if needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 10px;
+}
+
+.navbar-nav {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-nav .nav-item {
+  margin: 0 15px;
+}
+
+.navbar-nav .nav-link {
+  color: #f0f0f0; /* Light gray color */
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #c0a060; /* Gold color on hover */
+}
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    text-align: center;
+    flex-direction: column; /* Stack items vertically on smaller screens */
+  }
+}

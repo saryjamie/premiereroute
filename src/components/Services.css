@@ -1,0 +1,63 @@
+
+
+ .services {
+  padding: 40px;
+  background-color: #f8f8f8;
+  text-align: center;
+  height: 650px;
+}
+
+.services h1 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.services-grid {
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping to the next line if necessary */
+  justify-content: center; /* Centers the content horizontally */
+  gap: 20px; /* Space between each card */
+}
+
+.service-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: calc(25% - 20px); /* Width of each card, adjusting for the gap */
+  box-sizing: border-box;
+  text-align: left; /* Align text to the left inside each card */
+  padding: 15px;
+  overflow: hidden;
+  transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+.service-card:hover {
+  transform: translateY(-10px); /* Slight lift on hover */
+}
+
+.service-card h4 {
+  font-size: 1.5rem;
+  margin: 15px 0;
+  color: #444;
+}
+
+.service-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 1024px) {
+  .service-card {
+    width: calc(50% - 20px); /* Adjust to two cards per row on medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .service-card {
+    width: 100%; /* Stack one card per row on small screens */
+  }
+}
+

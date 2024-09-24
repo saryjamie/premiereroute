@@ -1,0 +1,15 @@
+footer {
+  background-color: #1a1a1a; /* Dark background color */
+  padding: 20px 0;
+  text-align: center;
+
+}
+
+footer .container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+footer .text-center {
+  color: #f0f0f0; /* Light gray color */
+}

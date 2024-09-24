@@ -1,0 +1,32 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  color: #1a1a1a; /* Dark text color */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+p {
+  color: #666;
+  line-height: 1.8;
+}
+
+a {
+  text-decoration: none;
+  color: #ffd700; /* Gold color for links */
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #e6b800; /* Darker gold color on hover */
+}

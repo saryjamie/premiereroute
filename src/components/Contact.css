@@ -1,0 +1,59 @@
+.contact {
+  padding: 40px 20px;
+  text-align: center;
+  height: 650px;
+}
+
+.contact h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #1a1a1a;
+}
+
+.contact form {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+  background-color: #f8f8f8; /* Light background color for form */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.contact .form-group {
+  margin-bottom: 20px;
+}
+
+.contact .form-group label {
+  font-size: 1rem;
+  margin-bottom: 5px;
+  display: block;
+  color: #1a1a1a;
+}
+
+.contact .form-group input,
+.contact .form-group textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 5px;
+  color: #555; /* Dark gray color */
+}
+
+.contact .form-group textarea {
+  height: 150px;
+}
+
+.contact .btn {
+  background-color: #333; /* Gold color */
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  color: #fff; /* Dark color for contrast */
+  transition: background-color 0.3s ease;
+}
+
+.contact .btn:hover {
+  background-color: #555; /* Darker gold color on hover */
+}

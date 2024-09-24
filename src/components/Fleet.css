@@ -1,0 +1,171 @@
+/* .fleet {
+  padding: 40px;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+.fleet h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.fleet-category {
+  margin-bottom: 30px;
+}
+
+.fleet-category h3 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #444;
+}
+
+.fleet-call h4 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #444;
+
+}
+.vehicle {
+  margin-bottom: 20px;
+}
+
+.vehicle img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.vehicle h4 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+  color: #555;
+}
+
+.vehicle p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.fleet-book .btn {
+  background-color: #0d700a; 
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  color: WHITE; 
+  transition: background-color 0.3s ease;
+}
+
+.fleet-book .btn:hover {
+  background-color: #e6b800; 
+  color:black
+}
+
+.fleet-call {
+  color: #555;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  } */
+
+
+  .fleet {
+    padding: 40px;
+    background-color: #f8f8f8;
+    text-align: center;
+  }
+  
+  .fleet h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .fleet p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  .fleet-grid {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping to the next line if necessary */
+    justify-content: center; /* Centers the content horizontally */
+    gap: 20px; /* Space between each card */
+  }
+  
+  .fleet-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: calc(33.333% - 20px); /* Width of each card, adjusting for the gap */
+    box-sizing: border-box;
+    text-align: left; /* Align text to the left inside each card */
+    padding: 20px;
+    overflow: hidden;
+    transition: transform 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .fleet-card:hover {
+    transform: translateY(-10px); /* Slight lift on hover */
+  }
+  
+  .fleet-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #444;
+  }
+  
+  .fleet-card h4 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #555;
+  }
+  
+  .fleet-card p {
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  .fleet-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .fleet-call {
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  .fleet-book .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0d700a;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .fleet-book .btn:hover {
+    background-color: #e6b800;
+  }
+  
+  @media (max-width: 1024px) {
+    .fleet-card {
+      width: calc(50% - 20px); /* Adjust to two cards per row on medium screens */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .fleet-card {
+      width: 100%; /* Stack one card per row on small screens */
+    }
+  }
+  
